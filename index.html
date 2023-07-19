@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySchool</title>
+    <link rel="icon" href="./school.png" />
+</head>
+<style>
+    * {
+        margin: 0;
+        top: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        color: #5400CF;
+        background-color: beige;
+    }
+    .nav {
+        width: 100vw;
+        height: 10vh;
+        position: fixed;
+        background-color: grey;
+        color: white;
+    }
+    .nav ul {
+        height: 100%;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .nav a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .nav a:link,
+    .nav a:visited {
+        color: white;
+    }
+    .nav a:hover {
+        text-decoration: 1px wavy white;
+        color: brown;
+        transition: all 0.3s ease-in-out;
+    }
+    .main {
+        box-sizing: border-box;
+        margin-top: 10vh;
+        padding: 3vh 10vw;
+        min-height: 100vh;
+    }
+    h1 {
+        letter-spacing: 0.7rem;
+        font-size: 3.5rem;
+        color: black;
+        margin: 2vh 0;
+        text-align: center;
+    }
+    .tagline {
+        box-sizing: border-box;
+        width: 70vw;
+        height: fit-content;
+        margin: 40px auto;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        border-left: 10px solid tomato;
+        border-right: 10px solid tomato;
+        color: teal;
+    }
+    #bright_vasna {
+        width: 60vw;
+        height: 60vh;
+        display: block;
+        border-radius: 20px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    .footer {
+        box-sizing: border-box;
+        height: 40vh;
+        width: 100%;
+        margin-top: 10vh;
+        background-color: navy;
+        padding: 20vh 20vw;
+    }
+    .para {
+        padding: 10vh 0;
+    }
+    p {
+        padding: 3vh 0;
+        font-size: 1.4rem;
+        letter-spacing: 0.2rem;
+        color: steelblue;
+    }
+</style>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#mainDiv">Home</a></li>
+            <li><a href="./explore.html" target="_blank">Explore School</a></li>
+            <li><a href="./aboutMe.html" target="_blank">About me</a></li>
+            <li><a href="./contactMe.html" target="_blank">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="main" id="mainDiv">
+        <H1>MY SCHOOL TOUR</H1>
+        <img src="./photos/bright1.jpg" alt="Bright vasna" id="bright_vasna" />
+
+        <div class="tagline">
+            <h2>“Empowering young minds to reach their full potential and achieve their dreams”
+
+            </h2>
+        </div>
+        <div class="para">
+            <p>Bright School is one of the most prominent and leading schools in Gujarat with a strength of more than
+                17000
+                students under the care of more than 1000 teaching and non-teaching staff. It is managed by the Bright
+                Education Trust.</p>
+
+            <p>It is rare to find both, quality and quantity hand in hand, but Bright School has proved that it is
+                possible.
+                With a large number of students under one umbrella, with superior teaching techniques and focused
+                attention,
+                Bright students excel in all spheres, not only at National but also at international Level.</p>
+
+            <p>At Bright, we provide the environment to enable our students to realize their true potential and evolve
+                into
+                confident and responsible adults who are able to contribute meaningfully to the society.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h2 style="color: white; text-align: center;">&copy; Jiya K. Pandya @2023</h2>
+    </div>
+</body>
+
+</html>
